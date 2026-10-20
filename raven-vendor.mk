@@ -777,6 +777,8 @@ PRODUCT_PACKAGES += \
     vendor.google.edgetpu_app_service@1.0-service.xml \
     android.hardware.boot-service.default_recovery-pixel.xml \
     android.hardware.health-service.gs101_recovery.xml \
+    dump_modem \
+    gpuflag \
     gs_watchdogd \
     vendor.google.edgetpu_app_service@1.0-service \
     android.hardware.boot-service.default_recovery-pixel \
@@ -2281,7 +2283,6 @@ PRODUCT_PACKAGES += \
     dump_fingerprint \
     dump_gsc \
     dump_lsi \
-    dump_modem \
     dump_modemlog \
     dump_perf \
     dump_pixel_metrics \
@@ -2291,7 +2292,6 @@ PRODUCT_PACKAGES += \
     dump_storage \
     dump_thermal \
     dump_trusty \
-    gpuflag \
     android.hardware.authsecret-service.citadel \
     android.hardware.biometrics.fingerprint-service.goodix \
     android.hardware.bluetooth-service.bcmbtlinux \
